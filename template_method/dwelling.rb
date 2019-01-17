@@ -1,5 +1,4 @@
 class Dwelling
-
   def build
     give_intro
     locate_building_site
