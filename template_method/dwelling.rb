@@ -77,8 +77,7 @@ Dwelling.new.build
 # -------------------------------------
 # Instructions for Building a Dwelling:
 # -------------------------------------
-# Find a level surface large enough for your dwelling's foun
-# dation and clear the area.
+# Find a level surface large enough for your dwelling's foundation and clear the area.
 # Move your belongings in and arrange them as you see fit.
 
 
@@ -86,8 +85,7 @@ Tent.new.build
 # ---------------------------------
 # Instructions for Building a Tent:
 # ---------------------------------
-# Find a level surface large enough for your tent's foundati
-# on and clear the area.
+# Find a level surface large enough for your tent's foundation and clear the area.
 # Spread out evenly on your site and stake the corners.
 # Clip rods to hooks of matching color.
 # Unzip doors and windows. Roll and secure the flaps.
@@ -98,7 +96,6 @@ StrawHouse.new.build
 # ---------------------------------------
 # Instructions for Building a StrawHouse:
 # ---------------------------------------
-# Find a level surface large enough for your strawhouse's fo
-# undation and clear the area.
+# Find a level surface large enough for your strawhouse's foundation and clear the area.
 # Keep stacking hay bales neatly, overlapping like bricks.
 # Move your belongings in and arrange them as you see fit.
