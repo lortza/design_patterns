@@ -14,6 +14,6 @@ Patterns include:
 - Iterator
 - Observer
 - Proxy
-- Template Method
+- [Template Method](/template_method)
 - Singleton
 - Strategy
