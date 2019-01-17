@@ -2,7 +2,11 @@
 
 This repo is a sandbox tool for me as I work my way through learning the design patterns in Ruby as described by Russ Olsen in his book _[Design Patterns in Ruby](https://www.goodreads.com/book/show/2278064.Design_Patterns_in_Ruby)_.
 
-Patterns include:
+## Others' Repos
+- https://github.com/nslocum/design-patterns-in-ruby
+- https://github.com/davidgf/design-patterns-in-ruby
+
+## Patterns
 - Abstract Factory Method
 - Adapter
 - Builder
