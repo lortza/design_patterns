@@ -1,5 +1,5 @@
 def is_valid_dir(dir)
-  File.directory?(dir) && ('a'..'z').to_a.include?(dir[0])
+  Dir.exist?(dir) && ('a'..'z').to_a.include?(dir[0])
 end
 
 def build_new_file(dir_name)
