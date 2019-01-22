@@ -1,8 +1,12 @@
-# Template Method
+# Template Pattern
+Page 59
 
 ## Uses
 - When you have a basic outline of the thing you want to accomplish, but the implementation of each step my require customization.
 - When customization needs can be corralled easily into specific subclasses.
+
+## Real Examples
+The `GenericServer` class in the Ruby WEBrick library.
 
 ## Pros
 - It's a pretty simple concept to use parent and subclasses.
