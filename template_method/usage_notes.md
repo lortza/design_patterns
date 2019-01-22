@@ -1,4 +1,4 @@
-# Template Pattern
+# Template Method Pattern
 Page 59
 
 ## Uses
