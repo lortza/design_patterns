@@ -11,13 +11,13 @@ This repo is a sandbox tool for me as I work my way through learning the design 
 - Adapter
 - Builder
 - Command
-- Composite
+- [Composite](/composite): build bigger objects out of smaller objects and allow methods to cascade. Uses 1 level of inheritance.
 - Decorator
 - Factory Method
 - Interpreter
 - Iterator
-- Observer
+- [Observer](/observer): automatically notify observing objects when an object changes.
 - Proxy
 - [Template Method](/template_method): allows you to customize the steps of a process without changing the process. Uses inheritance.
 - Singleton
-- [Strategy](/strategy): Pull the algorithm out into a separate object.
+- [Strategy](/strategy): pull the algorithm out into a separate object.
