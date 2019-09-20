@@ -2,6 +2,7 @@ class SimpleWriter
   attr_reader :file
   def initialize(path)
     @file = File.open("decorator/#{path}", 'w')
+    puts "initialized #{self.class}"
   end
 
   def write_line(line)
@@ -10,6 +11,7 @@ class SimpleWriter
     file.print("\n")
   end
 
+  # some other methods that we're not actually using
   def pos
     file.pos
   end
@@ -30,6 +32,7 @@ class WriterDecorator
 
   def initialize(real_writer)
     @real_writer = real_writer
+    puts "initialized #{self.class}"
   end
 
   def write_line(line)
