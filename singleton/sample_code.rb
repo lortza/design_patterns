@@ -13,7 +13,10 @@ class SimpleLogger
   end
 
   def info(msg)
-    @log_file.puts("INFO: #{msg}") if @level >= INFO
+    p SimpleLogger.instance.level
+    p @log_file
+    puts msg
+    @log_file.puts("INFO: #{msg}") #if @level >= INFO
     @log_file.flush
   end
 
@@ -33,7 +36,7 @@ class SimpleLogger
   end
 
   # makes sure we can't make more than one instance of this class
-  private_class_method :new
+  # private_class_method :new
 end
 
 # logger1 = SimpleLogger.instance
@@ -44,9 +47,9 @@ end
 
 # logger = SimpleLogger.new
 # logger.level = SimpleLogger::INFO
-# logger.info('oyvey2')
-# logger.warning('oyvey3')
-# logger.error('oyvey4')
+# logger.info('info message')
+# logger.warning('warning message')
+# logger.error('error message')
 
 
 SimpleLogger.instance.info('Hello, world.')
