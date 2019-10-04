@@ -1,0 +1,3 @@
+INFO: oyvey2
+WARNING: oyvey3
+ERROR: oyvey4
