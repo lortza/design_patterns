@@ -7,13 +7,12 @@ This repo is a sandbox tool for me as I work my way through learning the design 
 - https://github.com/davidgf/design-patterns-in-ruby
 
 ## Patterns
-- Abstract Factory Method
 - [Adapter](/Adapter): An object that spans the gap between the interface you have and the interface you need. You get encapsulation at the cost of complexity.
 - Builder
 - [Command](/command): separate the action bits into their own object that's separate from the static bits.
 - [Composite](/composite): build bigger objects out of smaller objects and allow methods to cascade. Uses 1 level of inheritance.
 - [Decorator](/decorator): make similar customizations to an object in an a la carte fashion at runtime.
-- Factory Method
+- [Factory Method](/factory_method): Solving the problem of picking the right class for the circumstances.
 - Interpreter
 - [Iterator](/iterator): iterate over objects inside of a black box
 - [Observer](/observer): automatically notify observing objects when an object changes.
