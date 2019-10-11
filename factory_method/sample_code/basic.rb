@@ -1,51 +1,4 @@
-class Duck
-  def initialize(name)
-    @name = name
-  end
-
-  def eat
-    puts "#{@name} is eating plants and algae."
-  end
-
-  def sleep
-    puts "#{@name} is sleeping under a bush."
-  end
-end
-
-class Frog
-  def initialize(name)
-    @name = name
-  end
-
-  def eat
-    puts "#{@name} is eating flies and worms."
-  end
-
-  def sleep
-    puts "#{@name} is sleeping on a lilly pad."
-  end
-end
-
-class WaterLily
-  def initialize(name)
-    @name = name
-  end
-
-  def grow
-    puts "#{@name} floating on the pond."
-  end
-end
-
-class Algae
-  def initialize(name)
-    @name = name
-  end
-
-  def grow
-    puts "#{@name} growing on the rocks"
-  end
-end
-
+require_relative 'organism_classes'
 
 class Pond
   def initialize(number_animals, animal_class, number_plants, plant_class )
@@ -88,5 +41,6 @@ class Pond
   end
 end
 
+puts 'Pond Life'
 pond = Pond.new(3, Duck, 4, WaterLily)
 pond.simulate_life

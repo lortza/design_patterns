@@ -1,30 +1,4 @@
-class Duck
-  def initialize(name)
-    @name = name
-  end
-
-  def eat
-    puts "#{@name} is eating plants and algae."
-  end
-
-  def sleep
-    puts "#{@name} is sleeping under a bush."
-  end
-end
-
-class Frog
-  def initialize(name)
-    @name = name
-  end
-
-  def eat
-    puts "#{@name} is eating flies and worms."
-  end
-
-  def sleep
-    puts "#{@name} is sleeping on a lilly pad."
-  end
-end
+require_relative 'organism_classes'
 
 class Pond
   def initialize(args)
