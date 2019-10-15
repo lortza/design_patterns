@@ -8,7 +8,7 @@ This repo is a sandbox tool for me as I work my way through learning the design 
 
 ## Patterns
 - [Adapter](/Adapter): An object that spans the gap between the interface you have and the interface you need. You get encapsulation at the cost of complexity.
-- Builder
+- [Builder](/builder): WIP
 - [Command](/command): separate the action bits into their own object that's separate from the static bits.
 - [Composite](/composite): build bigger objects out of smaller objects and allow methods to cascade. Uses 1 level of inheritance.
 - [Decorator](/decorator): make similar customizations to an object in an a la carte fashion at runtime.
@@ -17,7 +17,7 @@ This repo is a sandbox tool for me as I work my way through learning the design 
 - [Iterator](/iterator): iterate over objects inside of a black box
 - [Observer](/observer): automatically notify observing objects when an object changes.
 - Proxy
-- [Proxy](/proxy): wip
+- [Proxy](/proxy): Controlling access to an object or providing location-independent access to an object.
 - [Template Method](/template_method): allows you to customize the steps of a process without changing the process. Uses inheritance.
 - [Singleton](/singleton): wip
 - [Strategy](/strategy): pull the algorithm out into a separate object.
