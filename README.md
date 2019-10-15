@@ -8,7 +8,7 @@ This repo is a sandbox tool for me as I work my way through learning the design 
 
 ## Patterns
 - [Adapter](/Adapter): An object that spans the gap between the interface you have and the interface you need. You get encapsulation at the cost of complexity.
-- [Builder](/builder): WIP
+- [Builder](/builder): Encapsulates construction logic into a class of its own.
 - [Command](/command): separate the action bits into their own object that's separate from the static bits.
 - [Composite](/composite): build bigger objects out of smaller objects and allow methods to cascade. Uses 1 level of inheritance.
 - [Decorator](/decorator): make similar customizations to an object in an a la carte fashion at runtime.
