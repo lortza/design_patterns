@@ -35,17 +35,17 @@ class DiningTableBuilder
   end
 
   def leg_material(material)
-    @dining_table.material = material
+    @dining_table.legs.material = material
   end
 
   def top_material(material)
-    @dining_table.material = material
+    @dining_table.table_top.material = material
   end
 end
 
 builder = DiningTableBuilder.new
-builder.leg_material('concrete')
-builder.leg_material('concrete')
+builder.top_material('glass')
+# builder.leg_material('concrete')
 
 table = builder.dining_table
 puts table
