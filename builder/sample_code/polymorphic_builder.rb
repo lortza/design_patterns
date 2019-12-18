@@ -23,11 +23,12 @@ end
 
 # And now our specific types of tables
 class DiningTable
-  attr_accessor :top, :legs
+  attr_accessor :top, :legs, :leaf
 
-  def initialize(top=Top.new, legs=Legs.new)
+  def initialize(top=Top.new, legs=Legs.new, leaf=false)
     @top = top
     @legs = legs
+    @leaf = leaf
   end
 end
 
@@ -67,7 +68,7 @@ class BedsideTableBuilder < TableBuilder
   attr_reader :bedside_table
 
   def initialize
-    @bedside_table = DiningTable.new
+    @bedside_table = BedsideTable.new
   end
 end
 
@@ -81,8 +82,8 @@ class DiningTableBuilder < TableBuilder
 end
 
 builder = DiningTableBuilder.new
-builder.top_material('glass')
-builder.leg_material('concrete')
+builder.top_material=('glass')
+# builder.leg_material=('concrete')
 
 table = builder.dining_table
 puts table.top.material
