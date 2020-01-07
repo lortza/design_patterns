@@ -13,7 +13,7 @@ This repo is a sandbox tool for me as I work my way through learning the design 
 - [Composite](/composite): build bigger objects out of smaller objects and allow methods to cascade. Uses 1 level of inheritance.
 - [Decorator](/decorator): make similar customizations to an object in an a la carte fashion at runtime.
 - [Factory Method](/factory_method): Solving the problem of picking the right class for the circumstances.
-- Interpreter
+- [Interpreter](/interpreter): Good for interfacing between discreet chunks of code that otherwise have trouble talking to each other
 - [Iterator](/iterator): iterate over objects inside of a black box
 - [Observer](/observer): automatically notify observing objects when an object changes.
 - Proxy
