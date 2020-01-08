@@ -12,6 +12,7 @@ This repo is a sandbox tool for me as I work my way through learning the design 
 - [Command](/command): separate the action bits into their own object that's separate from the static bits.
 - [Composite](/composite): build bigger objects out of smaller objects and allow methods to cascade. Uses 1 level of inheritance.
 - [Decorator](/decorator): make similar customizations to an object in an a la carte fashion at runtime.
+- [Domain-Specific Languages (DSL)](/dsl): suggests that you should focus on the language itself, making problems easier to solve by giving the user a convenient syntax for expressing the problem.
 - [Factory Method](/factory_method): Solving the problem of picking the right class for the circumstances.
 - [Interpreter](/interpreter): Good for interfacing between discreet chunks of code that otherwise have trouble talking to each other
 - [Iterator](/iterator): iterate over objects inside of a black box

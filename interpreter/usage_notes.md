@@ -1,5 +1,5 @@
 # Interpreter Pattern
-Good for interfacing between discreet chunks of code that otherwise have trouble talking to each other.
+Good for interfacing between discreet chunks of code that otherwise have trouble talking to each other. The concept uses an AST (Abstract Syntax Tree) to obtain the action you are looking for.
 
 ## Uses
 Examples: the Ruby language, regular expressions, the Runt library
