@@ -1,4 +1,4 @@
-# DSL Pattern
+# DSL Pattern: Internal DSL
 Suggests that you should focus on the language itself, making problems easier to solve by giving the user a convenient syntax for expressing the problem.
 
 ## Uses
