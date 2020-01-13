@@ -22,3 +22,7 @@ This repo is a sandbox tool for me as I work my way through learning the design 
 - [Template Method](/template_method): allows you to customize the steps of a process without changing the process. Uses inheritance.
 - [Singleton](/singleton): wip
 - [Strategy](/strategy): pull the algorithm out into a separate object.
+
+## Other Notes
+- [Meta-programming](/_other_notes/metaprogramming.md): WIP
+- [Convention over Configuration](_other_notes/convention.md): WIP
