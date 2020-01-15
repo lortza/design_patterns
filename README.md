@@ -24,5 +24,5 @@ This repo is a sandbox tool for me as I work my way through learning the design 
 - [Strategy](/strategy): pull the algorithm out into a separate object.
 
 ## Other Notes
-- [Meta-programming](/_other_notes/metaprogramming.md): WIP
+- [Meta-programming](/_other_notes/metaprogramming.md): Takes advantage of Ruby's flexibility by allowing you to dynamically assign a class or method name at runtime. 
 - [Convention over Configuration](_other_notes/convention.md): WIP
